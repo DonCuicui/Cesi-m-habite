@@ -30,8 +30,11 @@ class App extends Component {
                     this.state.email == "" &&
                         <img src="https://cdn.discordapp.com/attachments/368420011380834305/514795334480822293/adopte_une_rh_blanc.png"/>
                 }
+
+                <div className="">
                 <img src={this.state.picture}/>
                 <p>{this.state.email}</p>
+                </div>
 
                 {
                     this.state.email == "" &&
