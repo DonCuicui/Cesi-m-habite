@@ -1,3 +1,17 @@
 body{
-    background:#FFCC66;
+    background:#000;
+}
+
+.general{
+    width:50%;
+    height:50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.general>img{
+    width:60%;
+    margin-top: 25%;
+    margin-bottom: 10%;
 }
